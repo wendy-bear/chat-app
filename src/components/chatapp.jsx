@@ -5,8 +5,6 @@ function Chat() {
   let [messages, addMessage] = useState([]);
   let [text, setText] = useState("");
 
-  //не понимаю, как зафиксировать дату для каждого рендеринга по клику
-
   let data = new Date();
 
   let newdata = data.toLocaleString();
@@ -27,6 +25,12 @@ function Chat() {
   function addMessages() {
     addMessage([...messages, text]);
   }
+
+  //не понимаю, как зафиксировать дату для каждого рендеринга по клику
+
+  useEffect(() => {
+    console.log(newdata);
+  }, [messageList]);
 
   return (
     <div className="wrapper">
