@@ -2,11 +2,7 @@ import "./App.css";
 import Chat from "./components/chatapp";
 
 function App() {
-  return (
-    <>
-      <Chat />
-    </>
-  );
+  return <Chat />;
 }
 
 export default App;

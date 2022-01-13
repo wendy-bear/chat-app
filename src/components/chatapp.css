@@ -8,10 +8,17 @@
   border: 2px solid #008b8b;
   border-radius: 15px;
 }
-input {
+#name {
+  width: 350px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid #008b8b;
+}
+#text {
   width: 350px;
   height: 100px;
-  margin: 50px;
+  margin: 10px;
+  border: 2px solid #008b8b;
 }
 .btn-send {
   width: 150px;
@@ -22,4 +29,9 @@ input {
 .message {
   font-size: 25px;
   margin: 20px;
+  width: 600px;
+}
+
+.colorred {
+  color: red;
 }
